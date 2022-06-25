@@ -64,7 +64,7 @@ public class TestSignInUser extends BaseClass2 {
 
     	
     	//Get the data from excel file
-    	String path = "C:\\Users\\swati\\eclipse-workspace\\CucumberJava\\src\\datafiles\\InputTestData.xlsx";
+    	String path = "C:\\Users\\swati\\git\\DSAlgo\\CucumberJava\\src\\datafiles\\InputTestData.xlsx";
     	
     	XLSUtility xlutil = new XLSUtility(path);
     	int totalrows = xlutil.getRowCount("Sheet1");

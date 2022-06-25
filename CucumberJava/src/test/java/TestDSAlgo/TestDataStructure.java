@@ -51,7 +51,7 @@ public class TestDataStructure extends BaseClass2{
 		
     	System.out.println("Please log in to continue");
     	HomeObj.Click_SignIn();
-        String path = "C:\\Users\\swati\\eclipse-workspace\\CucumberJava\\src\\datafiles\\InputTestData.xlsx";
+        String path = "C:\\Users\\swati\\git\\DSAlgo\\CucumberJava\\src\\datafiles\\InputTestData.xlsx";
     	
     	XLSUtility xlutil = new XLSUtility(path);
     	String username = xlutil.getCellData("Sheet1", 1, 0);
